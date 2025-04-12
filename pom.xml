@@ -74,7 +74,10 @@
     </dependency>
 
   </dependencies>
-
+  <properties>
+    <sonar.organization>cs1632-spring-2025</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  </properties>
   <build>
     <plugins>
       <plugin>
